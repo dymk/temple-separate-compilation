@@ -1,0 +1,21 @@
+{
+	"name": "temple_tests",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2014, dymk",
+	"authors": ["dymk"],
+	"dependencies": {
+    "temple": {
+      "path": "../temple"
+    },
+
+    "temple_tests:views": "~master"
+	},
+
+  "subConfigurations": {
+    "temple": "lib"
+  },
+
+  "subPackages": [
+    "./views"
+  ]
+}

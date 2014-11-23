@@ -1,0 +1,3 @@
+<span>
+  Main content! Passed in name: <%= var.name %>
+</span>

@@ -1,0 +1,12 @@
+{
+  "name": "views",
+  "targetType": "library",
+  "stringImportPaths": ["."],
+  "sourcePaths": ["."],
+
+  "dependencies": {
+    "temple": {
+      "path": "../../temple"
+    }
+  }
+}

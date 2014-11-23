@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <%= render!"shared/header.emd" %>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <%= render!"shared/footer.emd" %>
+  </body>
+<html>
